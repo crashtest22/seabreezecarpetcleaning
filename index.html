@@ -17,7 +17,7 @@
     *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.6} a{text-decoration:none;color:inherit}
     img{max-width:100%;display:block}
     .topbar{background:var(--blue-dark);color:#fff;padding:12px 20px;font-size:15px}.topbar .inner,.nav .inner,.hero,.section,.footer-inner{max-width:var(--max);margin:0 auto}.topbar .inner{display:flex;justify-content:flex-end}.phone{font-weight:700}
-    .nav{background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.06)} .nav .inner{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;gap:20px}.nav img{height:88px}.nav-links{display:flex;gap:22px;font-size:14px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--blue-dark)} .cta{background:var(--gold);color:#10222e;padding:14px 20px;border-radius:999px;font-weight:700;box-shadow:var(--shadow)}
+    .nav{background:url("beach-banner.png") center/cover no-repeat;box-shadow:0 1px 0 rgba(0,0,0,.06);position:relative}.nav::before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.72)} .nav .inner{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px 20px 24px;gap:14px}.nav img{height:124px}.nav-links{display:flex;gap:22px;font-size:14px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--blue-dark);background:rgba(255,255,255,.86);padding:10px 16px;border-radius:999px} .cta{background:var(--gold);color:#10222e;padding:14px 20px;border-radius:999px;font-weight:700;box-shadow:var(--shadow)}
     .hero-wrap{background:linear-gradient(180deg,#ffffff 0%, #eef6fb 100%)} .hero{padding:26px 20px 34px;display:grid;grid-template-columns:1.1fr .9fr;gap:26px;align-items:stretch}
     .hero-copy{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:42px} .eyebrow{color:var(--blue);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:12px} h1{font-size:50px;line-height:1.05;margin:14px 0 18px;color:var(--blue-dark)} .lead{font-size:19px;color:var(--muted);margin-bottom:24px}
     .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px}.btn{padding:15px 22px;border-radius:999px;font-weight:700;display:inline-block}.btn-primary{background:var(--blue);color:#fff}.btn-secondary{background:#edf4f8;color:var(--blue-dark)}
@@ -77,7 +77,7 @@
         <h3>Why People Call Sea Breeze</h3>
         <ul class="feature-list">
           <li>Over 40 years of owner-operated experience</li>
-          <li>Prompt, quality service with reasonable pricing</li>
+          <li>Quality service with reasonable pricing</li>
           <li>No job too big or too small</li>
           <li>Most estimates can be given right over the phone</li>
           <li>Typical dry time of 5 to 8 hours, often faster in warm conditions</li>
