@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seabreezecarpetcleaning.net/sitemap.xml
